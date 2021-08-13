@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <script src="java.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body onload="initialize()">
+<table>
+    <tr>
+        <td>
+            <canvas id="myCanvas" width= "1600" height= "1000"
+                    style="border:1px solid #000000;"></canvas>
+        </td>
+        <td valign= "top">
+            <p class = "p1" id = "timer"></p>
+            <p class = "p4" id = "score1"></p>
+            <p class = "p5" id = "score2"></p>
+            <p class = "p2" id = "lives"></p>
+            <p class = "p3" id = "restart"></p>
+            <input id = "reset" class = "button" type="button" onclick="reset()" value="Reset" style="visibility: hidden">
+        </td>
+    </tr>
+</table>
+</body>
+</html>
