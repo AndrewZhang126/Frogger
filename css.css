@@ -1,0 +1,43 @@
+.p1{
+    color: mediumseagreen;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.p2{
+    color: red;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.p3{
+    color: #3399FF;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.p4{
+    color: hotpink;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.p5{
+    color: #FF66FF;
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button{
+    background-color: #3399FF;
+    font-family: "Courier New";
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 30px;
+    padding: 8px 25px;
+}
